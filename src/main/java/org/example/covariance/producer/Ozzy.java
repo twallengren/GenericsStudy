@@ -4,9 +4,9 @@ import org.example.covariance.producible.Entertainment;
 import org.example.covariance.producible.Metal;
 import org.example.covariance.producible.Music;
 
-public class Ozzy extends Musician<Metal> {
+public class Ozzy extends Musician {
 
-    public Entertainment<Music<Metal>> produce() {
+    public Metal produce() {
         return new Metal();
     }
 }

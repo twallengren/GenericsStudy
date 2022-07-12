@@ -2,9 +2,9 @@ package org.example.covariance.producer;
 
 import org.example.covariance.producible.Entertainment;
 
-public class Entertainer<T extends Entertainment<T>> {
+public class Entertainer {
 
-    public Entertainment<T> produce() {
-        return new Entertainment<>();
+    public Entertainment produce() {
+        return new Entertainment();
     }
 }
