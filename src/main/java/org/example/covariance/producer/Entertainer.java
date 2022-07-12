@@ -2,9 +2,13 @@ package org.example.covariance.producer;
 
 import org.example.covariance.producible.Entertainment;
 
-public class Entertainer<T extends Entertainment<T>> {
+import java.util.List;
+
+public class Entertainer<T> {
+
+    List<? extends Entertainment<T>> products = List.of(new Entertainment<>());
 
     public Entertainment<T> produce() {
-        return new Entertainment<>();
+        return products.get(0);
     }
 }
