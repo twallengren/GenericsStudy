@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d321b5f7-f4f5-4827-b5a4-217f585c3ed1" name="Changes" comment="" />
+    <list default="true" id="d321b5f7-f4f5-4827-b5a4-217f585c3ed1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contravariance/consumable/Carrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contravariance/consumable/EnergySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contravariance/consumable/Vegetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contravariance/consumer/CarrotConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contravariance/consumer/EnergyConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contravariance/consumer/VegetableConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/covariance/producer/Entertainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/covariance/producer/Musician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/covariance/producer/Ozzy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/covariance/producible/Entertainment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/covariance/producible/Metal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/covariance/producible/Music.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

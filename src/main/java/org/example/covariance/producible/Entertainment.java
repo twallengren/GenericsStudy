@@ -1,4 +1,4 @@
 package org.example.covariance.producible;
 
-public class Entertainment {
+public class Entertainment<T> {
 }

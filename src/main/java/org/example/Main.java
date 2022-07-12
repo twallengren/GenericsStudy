@@ -26,24 +26,24 @@ public class Main {
     }
 
     public static void covariance() {
-        List<Entertainment> entertainmentList = new ArrayList<>();
-        List<Music> musicList = new ArrayList<>();
-        List<Metal> metalList = new ArrayList<>();
+        List<Entertainment<?>> entertainmentList = new ArrayList<>();
+        List<Entertainment<? extends Music<?>>> musicList = new ArrayList<>();
+        List<Entertainment<? extends Music<Metal>>> metalList = new ArrayList<>();
 
-        Entertainer entertainer = new Entertainer();
-        Entertainment entertainment = entertainer.produce();
+        Entertainer<?> entertainer = new Entertainer<>();
+        Entertainment<?> entertainment = entertainer.produce();
         entertainmentList.add(entertainment);
         musicList.add(entertainment);
         metalList.add(entertainment);
 
-        Musician musician = new Musician();
-        Music music = musician.produce();
+        Musician<?> musician = new Musician<>();
+        Entertainment<? extends Music<?>> music = musician.produce();
         entertainmentList.add(music);
         musicList.add(music);
         metalList.add(music);
 
         Ozzy ozzy = new Ozzy();
-        Metal metal = ozzy.produce();
+        Entertainment<Music<Metal>> metal = ozzy.produce();
         entertainmentList.add(metal);
         musicList.add(metal);
         metalList.add(metal);
